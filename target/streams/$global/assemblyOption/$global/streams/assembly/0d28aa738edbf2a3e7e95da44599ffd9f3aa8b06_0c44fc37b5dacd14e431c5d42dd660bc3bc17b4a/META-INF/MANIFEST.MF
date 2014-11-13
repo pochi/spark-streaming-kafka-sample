@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: org.spark-project
+Implementation-Title: pyrolite
+Implementation-Version: 2.0.1
+Implementation-Vendor-Id: org.spark-project
+Specification-Vendor: org.spark-project
+Specification-Title: pyrolite
+Specification-Version: 2.0.1
+

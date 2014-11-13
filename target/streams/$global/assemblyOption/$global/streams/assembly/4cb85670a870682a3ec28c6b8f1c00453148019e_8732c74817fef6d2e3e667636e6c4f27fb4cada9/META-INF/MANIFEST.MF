@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: jesse
+Build-Jdk: 1.7.0_25
+Implementation-Vendor: Eclipse.org - Jetty
+Implementation-Version: 8.1.14.v20131031
+url: http://www.eclipse.org/jetty
+Export-Package: org.eclipse.jetty.xml;uses:="org.eclipse.jetty.util.co
+ mponent,org.eclipse.jetty.util.resource,org.eclipse.jetty.util.log,or
+ g.eclipse.jetty.util,org.xml.sax,javax.xml.parsers,org.xml.sax.helper
+ s";version="8.1.14"
+Bundle-Classpath: .
+Tool: Bnd-1.15.0
+Bundle-Name: Jetty :: XML utilities
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Copyright: Copyright (c) 2008-2012 Mort Bay Consulting Pty. Ltd.
+Bundle-Vendor: Eclipse Jetty Project
+Bundle-Version: 8.1.14.v20131031
+Bnd-LastModified: 1383234378042
+Bundle-ManifestVersion: 2
+Bundle-Description: The jetty xml utilities.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www
+ .eclipse.org/org/documents/epl-v10.php
+Import-Package: javax.xml.parsers,org.eclipse.jetty.util;version="[8.1
+ ,9)",org.eclipse.jetty.util.component;version="[8.1,9)",org.eclipse.j
+ etty.util.log;version="[8.1,9)",org.eclipse.jetty.util.resource;versi
+ on="[8.1,9)",org.xml.sax,org.xml.sax.helpers
+Bundle-SymbolicName: org.eclipse.jetty.xml
+Bundle-DocURL: http://www.eclipse.org/jetty
+

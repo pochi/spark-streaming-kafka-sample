@@ -1,0 +1,88 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: KiLON74IVyAZ7K/IngcsFyU9dK0=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: OqEU7TxnYmkJOKhmF3nM8abxJDI=
+
+Name: javax/transaction/xa/Xid.class
+SHA1-Digest: rCX86FQC0tYKeGv1woJ2yPFYmGY=
+
+Name: javax/transaction/HeuristicCommitException.class
+SHA1-Digest: OGpdWq0frKbtI83No0f95S+Pwcw=
+
+Name: javax/transaction/TransactionManager.class
+SHA1-Digest: W+rr7qcd1U/3X8YqZCNzq1xo59U=
+
+Name: javax/transaction/TransactionRequiredException.class
+SHA1-Digest: aF02g/IYdKMEtHzlj7K8t/8I3go=
+
+Name: javax/transaction/Status.class
+SHA1-Digest: lKRAK1dAVYlI+bipUs3iis+b4x4=
+
+Name: javax/transaction/RollbackException.class
+SHA1-Digest: Op8MBHCx2es5QYZUJi2o8y51zKY=
+
+Name: META-INF/LICENSE
+SHA1-Digest: oD4UIv1tZ9qdmIqAvX6tt0tzwT0=
+
+Name: plugin.properties
+SHA1-Digest: mPD78/LRY5znRE6dh+A5yiM5mgU=
+
+Name: javax/transaction/UserTransaction.class
+SHA1-Digest: Mu9Dd2/BXsf9LaOXedK425vRhrQ=
+
+Name: javax/transaction/TransactionSynchronizationRegistry.class
+SHA1-Digest: rcmUYkX/gUjowC7uUpaZt/qahGM=
+
+Name: about_files/LICENSE.txt
+SHA1-Digest: AZ1Gz6XJJe7p5KHLgXjkErkNZ+A=
+
+Name: javax/transaction/xa/XAResource.class
+SHA1-Digest: 1fmzk63Gdd0MgTCkYnSC5Ylzacc=
+
+Name: javax/transaction/Transaction.class
+SHA1-Digest: 2dJDV6hrjCNioFEHd3ZQ83XA5nQ=
+
+Name: javax/transaction/Synchronization.class
+SHA1-Digest: KiqfPErFnCYnYFpl3dnp8xdptFg=
+
+Name: javax/transaction/SystemException.class
+SHA1-Digest: L9eoj/v6h06vSYP0WADqfRLON7s=
+
+Name: javax/transaction/TransactionRolledbackException.class
+SHA1-Digest: V4ZXF6ip5ciVQB4sMBdTLRcqpgg=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: about_files/NOTICE.txt
+SHA1-Digest: t7SiuZOMVZTWFKjZUzxj0lc/yEY=
+
+Name: javax/transaction/InvalidTransactionException.class
+SHA1-Digest: 3f0xJGzbYG7fndVNOGTwAUY+yxQ=
+
+Name: about.html
+SHA1-Digest: qfS7JXwyNgW+iflkSlOgGuQvTfg=
+
+Name: META-INF/NOTICE
+SHA1-Digest: AA160YjBytOGCp3hpQAnkvq/oio=
+
+Name: META-INF/maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec/p
+ om.properties
+SHA1-Digest: utCr/+hPLl6naeWjTgztPoBgefc=
+
+Name: javax/transaction/NotSupportedException.class
+SHA1-Digest: FwFAW7YNqDZULp9fAJIsuW5UEdk=
+
+Name: javax/transaction/xa/XAException.class
+SHA1-Digest: CLue3ijY7Fbwii2WV7euBYJPfeI=
+
+Name: javax/transaction/HeuristicRollbackException.class
+SHA1-Digest: M/KFFuFLHsM056qhF18yVZ2aJ4Q=
+
+Name: META-INF/maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec/p
+ om.xml
+SHA1-Digest: c00ds7oyTpvRYKvQl8AmhTWhUkM=
+
+Name: javax/transaction/HeuristicMixedException.class
+SHA1-Digest: znbIDKeT1k/Dgec4fcTXztf0b1M=
+

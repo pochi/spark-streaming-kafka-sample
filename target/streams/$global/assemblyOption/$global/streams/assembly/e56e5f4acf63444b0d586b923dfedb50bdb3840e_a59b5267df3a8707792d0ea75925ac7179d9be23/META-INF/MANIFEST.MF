@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: jesse
+Build-Jdk: 1.7.0_25
+Implementation-Vendor: Eclipse.org - Jetty
+Implementation-Version: 8.1.14.v20131031
+url: http://www.eclipse.org/jetty
+Export-Package: org.eclipse.jetty.jndi.factories;uses:="org.eclipse.je
+ tty.util.security,javax.mail,javax.naming,javax.naming.spi";version="
+ 8.1.14",org.eclipse.jetty.jndi.java;uses:="javax.naming,org.eclipse.j
+ etty.util.log,org.eclipse.jetty.jndi,javax.naming.spi";version="8.1.1
+ 4",org.eclipse.jetty.jndi.local;uses:="javax.naming,org.eclipse.jetty
+ .jndi,org.eclipse.jetty.util.log,javax.naming.spi";version="8.1.14",o
+ rg.eclipse.jetty.jndi;uses:="javax.naming,org.eclipse.jetty.server.ha
+ ndler,org.eclipse.jetty.util.log,javax.naming.spi,javax.sql,org.eclip
+ se.jetty.util.component,org.eclipse.jetty.jndi.local";version="8.1.14"
+Bundle-Classpath: .
+Tool: Bnd-1.15.0
+Bundle-Name: Jetty :: JNDI Naming
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Copyright: Copyright (c) 2008-2012 Mort Bay Consulting Pty. Ltd.
+Bundle-Vendor: Eclipse Jetty Project
+Bundle-Version: 8.1.14.v20131031
+Bnd-LastModified: 1383234621063
+Bundle-ManifestVersion: 2
+Bundle-Description: JNDI spi impl for java namespace.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www
+ .eclipse.org/org/documents/epl-v10.php
+Import-Package: javax.mail;version="[1.4,2)",javax.naming,javax.naming
+ .spi,javax.sql,org.eclipse.jetty.server.handler;version="[8.1,9)",org
+ .eclipse.jetty.util.component;version="[8.1,9)",org.eclipse.jetty.uti
+ l.log;version="[8.1,9)",org.eclipse.jetty.util.security;version="[8.1
+ ,9)"
+Bundle-SymbolicName: org.eclipse.jetty.jndi
+Bundle-DocURL: http://www.eclipse.org/jetty
+

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: org.apache.spark
+Implementation-Title: spark-streaming-kafka
+Implementation-Version: 1.2.0-SNAPSHOT
+Implementation-Vendor-Id: org.apache.spark
+Specification-Vendor: org.apache.spark
+Specification-Title: spark-streaming-kafka
+Specification-Version: 1.2.0-SNAPSHOT
+

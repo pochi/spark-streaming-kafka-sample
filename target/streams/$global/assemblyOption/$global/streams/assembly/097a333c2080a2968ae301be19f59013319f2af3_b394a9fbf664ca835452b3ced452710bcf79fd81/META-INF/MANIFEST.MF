@@ -1,0 +1,131 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Bundle-Name: %Bundle-Name.0
+Bundle-SymbolicName: javax.activation
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/javax.activation;tag=v201105071233
+Require-Bundle: system.bundle
+Export-Package: javax.activation; version=1.1.0; vendor=geronimo,org.a
+ pache.geronimo.activation.handlers;x-internal:=true
+Bundle-Version: 1.1.0.v201105071233
+Bundle-ManifestVersion: 2
+Import-Package: javax.imageio,javax.imageio.metadata
+
+Name: javax/activation/UnsupportedDataTypeException.class
+SHA1-Digest: 4MUsY5deYjIh0MKx9VUJgJnJD3M=
+
+Name: META-INF/mimetypes.default
+SHA1-Digest: nVkk0DdoHnAna8z9HT4kNPBx5HQ=
+
+Name: javax/activation/MimeTypeParameterList.class
+SHA1-Digest: wgb5VYGBrPRnZ6lUnk7zP1b+3cg=
+
+Name: org/apache/geronimo/activation/handlers/TextPlainHandler.class
+SHA1-Digest: 2jDIJl2fcFcojAqK70AZ+58jmss=
+
+Name: org/apache/geronimo/activation/handlers/AbstractImageHandler.cla
+ ss
+SHA1-Digest: 7OtDhWs2u90zoBHZbwKIE2OJYBY=
+
+Name: javax/activation/DataHandler.class
+SHA1-Digest: s6TVnj9jtuNnQvw3q+VAIzob0+E=
+
+Name: javax/activation/FileDataSource.class
+SHA1-Digest: QNh4OVUwoOPY9buiANLzZ8rB/vE=
+
+Name: META-INF/LICENSE.txt
+SHA1-Digest: K4uBUimqimHkg/tLoFiLi2xJGJA=
+
+Name: plugin.properties
+SHA1-Digest: DNgWxd9ae9WNw9nQqsbQ7RoYGF8=
+
+Name: javax/activation/MimeTypeParameterList$1.class
+SHA1-Digest: 7v6hJnpPeiTP8auNszhmP9PJpDI=
+
+Name: javax/activation/DataHandler$ObjectDataSource.class
+SHA1-Digest: R23yEauOQH9Efp6qWriTrOI2dJ4=
+
+Name: javax/activation/MimeTypeParseException.class
+SHA1-Digest: Ywnc7wNc1LEosKjjR1FQN8xYvs0=
+
+Name: org/apache/geronimo/activation/handlers/MultipartHandler.class
+SHA1-Digest: OKB1FOMZqrjYoRqo8q7Eh79Y474=
+
+Name: org/apache/geronimo/activation/handlers/AbstractTextHandler.clas
+ s
+SHA1-Digest: S5PKkDzAt6bikdewl9k0IOKwVp4=
+
+Name: org/apache/geronimo/activation/handlers/TextXmlHandler.class
+SHA1-Digest: 1Ra8H1H3SljeZQEdpZTi8AS/qJ0=
+
+Name: javax/activation/MimeType.class
+SHA1-Digest: fgTwYJX8TEwoyMS8axw/ZDhmBYw=
+
+Name: about_files/LICENSE.txt
+SHA1-Digest: K4uBUimqimHkg/tLoFiLi2xJGJA=
+
+Name: javax/activation/CommandMap.class
+SHA1-Digest: VQZUi6eykB1NyC1+IvgGbjagkLk=
+
+Name: org/apache/geronimo/activation/handlers/ImageGifHandler.class
+SHA1-Digest: GfgIHqhgZCbJelID5VINaXLYeD0=
+
+Name: javax/activation/DataHandler$ObjectDataSource$1.class
+SHA1-Digest: zqhmy9J2ULa19kSTjfwawi0FFLY=
+
+Name: javax/activation/CommandInfo.class
+SHA1-Digest: CLadAuRvr3R5UmJevjZSdiqUsKM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: about_files/NOTICE.txt
+SHA1-Digest: Ex1StWQcRypWm7DbhZGM8v6CEUA=
+
+Name: javax/activation/DataContentHandler.class
+SHA1-Digest: qpuXRqITH14g9D3z2r3ugbTp3uY=
+
+Name: META-INF/mailcap
+SHA1-Digest: 1ehEWvuJHwFcK9WE8Z4s4HsbVpg=
+
+Name: javax/activation/ActivationDataFlavor.class
+SHA1-Digest: BwRNC5lpDKxNJ2JiafthGkN1lUc=
+
+Name: javax/activation/MimetypesFileTypeMap.class
+SHA1-Digest: dEvRkDiuZ26o6lz1+KEKs4hATSU=
+
+Name: about.html
+SHA1-Digest: n+rArjVN8f6hPHTGceAjDgnZZ4k=
+
+Name: javax/activation/MimeTypeParameterList$RFC2045Parser.class
+SHA1-Digest: NYOeNb3qOWT6Y6Mrfu5xP7JsHH0=
+
+Name: org/apache/geronimo/activation/handlers/TextHtmlHandler.class
+SHA1-Digest: CFlnHx7/95g62ACwqjcIefVrPTA=
+
+Name: javax/activation/DataSource.class
+SHA1-Digest: P/GNNuHn9a/jhbglGdxgTTq/NdA=
+
+Name: META-INF/NOTICE.txt
+SHA1-Digest: H9ab5ckhpzoIb7CLBsKe798YBNw=
+
+Name: javax/activation/FileTypeMap.class
+SHA1-Digest: x5nrvgD7WMzHpodZ6y/SEaW2TC0=
+
+Name: javax/activation/CommandObject.class
+SHA1-Digest: AobquSBFcAYvmn3mJkaRXuYefF0=
+
+Name: javax/activation/MailcapCommandMap.class
+SHA1-Digest: 5voBL5S04Pjz7fOjPTUwsCGS3vM=
+
+Name: javax/activation/DataContentHandlerFactory.class
+SHA1-Digest: cElzh8ZR8G/iCtIvg/WcdFQxU7Q=
+
+Name: javax/activation/URLDataSource.class
+SHA1-Digest: 62/j1It9W0RajQFNR0iQCH+gAt0=
+
+Name: org/apache/geronimo/activation/handlers/ImageJpegHandler.class
+SHA1-Digest: AwPTA+2gc1cOduminLCWomEt7xc=
+

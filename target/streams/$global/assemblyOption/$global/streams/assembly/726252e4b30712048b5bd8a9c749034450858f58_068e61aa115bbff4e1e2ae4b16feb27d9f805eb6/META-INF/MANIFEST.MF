@@ -1,0 +1,100 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Fragment-Host: system.bundle
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: javax.transaction
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/javax.transaction;tag=v201105210645
+Export-Package: javax.transaction.xa;version="1.1",javax.transaction;v
+ ersion="1.1"
+Bundle-Version: 1.1.1.v201105210645
+Bundle-Description: Provides open-source implementations of Sun specif
+ ications.
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Name: %Bundle-Name.0
+Implementation-Version: 1.1.1
+Bundle-ManifestVersion: 2
+
+Name: javax/transaction/xa/Xid.class
+SHA1-Digest: FHu3oiGcKH0mIHWAtJzE9Xnf0j4=
+
+Name: javax/transaction/HeuristicCommitException.class
+SHA1-Digest: 81X3l/SePxygDYzNkdRNU3KdXEk=
+
+Name: javax/transaction/TransactionManager.class
+SHA1-Digest: WNJDzCuPvx+6j4G/tA1MTEeV4Lc=
+
+Name: javax/transaction/Status.class
+SHA1-Digest: cqP96jximwz591qcUbz0lNEEkLM=
+
+Name: javax/transaction/TransactionRequiredException.class
+SHA1-Digest: KdwwLWrwNUV+hiCnDzx4l5T+hZY=
+
+Name: META-INF/LICENSE
+SHA1-Digest: Wn199lW6QEeProCmq6/Gr8Nvm2o=
+
+Name: javax/transaction/RollbackException.class
+SHA1-Digest: 22ohOpEq3aTvP1IrGLUrbu80DhE=
+
+Name: plugin.properties
+SHA1-Digest: ZZYy4fieDR8ymKcOr0QwL61Y5d8=
+
+Name: javax/transaction/TransactionSynchronizationRegistry.class
+SHA1-Digest: LeqIuBfQiu3arYffopJMW77R3e0=
+
+Name: javax/transaction/UserTransaction.class
+SHA1-Digest: yw60kqWs+rQqcPv+06cITLhxfAE=
+
+Name: about_files/LICENSE.txt
+SHA1-Digest: K4uBUimqimHkg/tLoFiLi2xJGJA=
+
+Name: javax/transaction/xa/XAResource.class
+SHA1-Digest: wwJHYqrWSLaJsC72OvJqhIZG9Pg=
+
+Name: javax/transaction/Transaction.class
+SHA1-Digest: 4pgLick7NClfYU47mYShyQwXz2g=
+
+Name: javax/transaction/Synchronization.class
+SHA1-Digest: hWdAiFA/CuaQ+bBhGImK8qbwtkw=
+
+Name: javax/transaction/SystemException.class
+SHA1-Digest: bfb3/V+n9D2Y75nPLAjdB89VJus=
+
+Name: javax/transaction/TransactionRolledbackException.class
+SHA1-Digest: bsfQDqpxeWiAH3pjNLcUIc0YnPY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: about_files/NOTICE.txt
+SHA1-Digest: xtjeh1hUj/tTk6o5cRJ49It8k7A=
+
+Name: javax/transaction/InvalidTransactionException.class
+SHA1-Digest: SBqgk41N6SGjGyFNr5e2TpNhHgA=
+
+Name: about.html
+SHA1-Digest: KmTQiF4d/xAD/1vhv8hMGQtlISM=
+
+Name: META-INF/NOTICE
+SHA1-Digest: fJeZ+oCQZZfTmzpTKgh0izg5pGM=
+
+Name: META-INF/maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec/p
+ om.properties
+SHA1-Digest: F9ssiVlIrmfaC6Q4CFclNKl0pfM=
+
+Name: javax/transaction/NotSupportedException.class
+SHA1-Digest: QvCGRahZLMHa/PnrXDMqDw46Gfw=
+
+Name: javax/transaction/xa/XAException.class
+SHA1-Digest: HmbCMu/UFZshLE6d+PXucTcVvWQ=
+
+Name: javax/transaction/HeuristicRollbackException.class
+SHA1-Digest: elr7kZn1RyEQf2SbABpVoLvSgEM=
+
+Name: META-INF/maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec/p
+ om.xml
+SHA1-Digest: gmq5JvkO/QjeqR/c4mRPS7tEEtg=
+
+Name: javax/transaction/HeuristicMixedException.class
+SHA1-Digest: fmpy9I8ZH7mTs/i/scZdoQNM3JY=
+

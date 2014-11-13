@@ -1,0 +1,25 @@
+(SqlFile Bearbeiter v. %{1})
+Weiterverbreitung ist zulässig unter den Bedinungen der HSQLDB Lizenz.
+(c) 2004-2007 Blaine Simpson and die HSQLDB Development Group.
+
+    \q    aufzuhören.
+    \?    listet Sonderbefehle.
+    :?    listet Editpuffer/History commands.
+    *?    listet PL Befehle.
+
+SONDER Befehle fangen mit \ an und führen durch, wann Sie ENTER-Taste schlagen.
+EDIT-PUFFER / GESCHICHTE fangen mit : an und führen durch, wann Sie ENTER-Taste
+schlagen.
+KOMMENTARE fangen mit /* an und and beenden mit allernächst */.
+VERFAHRENSSPRACHE Befehle fangen mit * an und führen durch, wann Sie
+ ENTER-Taste anschlagen.
+Alle weiteren Zeilen enthalten SQL Anweisungen.
+  SQL Anweisungen werden entweder durch eine Leerzeile beendet (die die
+  Anweisung in den Editpuffer verschiebt, onhe auszuführen) oder eina Ziele
+  Ende mit ';' (das die Anweisung ausführt).
+  SQL Befehle können  mit '/PLVARNAME' für einen PL Variablebefehlalias
+  anfangen.
+Nach Variableexpansion bei der "*" Befehl (oder irgendeine andere
+ Verfahrensbefehle), PL Variable können in irgendein Befehl (außerhalb
+ : Befehle) wie so:  *{PLVARNAME}.
+

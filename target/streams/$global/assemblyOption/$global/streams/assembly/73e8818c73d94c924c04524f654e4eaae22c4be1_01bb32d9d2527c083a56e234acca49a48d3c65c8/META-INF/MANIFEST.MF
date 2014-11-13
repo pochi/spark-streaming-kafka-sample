@@ -1,0 +1,80 @@
+Manifest-Version: 1.0
+Export-Package: org.codehaus.jackson.schema;uses:="org.codehaus.jackso
+ n.node,org.codehaus.jackson.map,org.codehaus.jackson.annotate,org.cod
+ ehaus.jackson";version="1.8.8",org.codehaus.jackson.map.deser.impl;us
+ es:="org.codehaus.jackson.map,org.codehaus.jackson.map.annotate,org.c
+ odehaus.jackson.map.deser,org.codehaus.jackson,org.codehaus.jackson.t
+ ype";version="1.8.8",org.codehaus.jackson.map.exc;uses:="org.codehaus
+ .jackson.map,org.codehaus.jackson";version="1.8.8",org.codehaus.jacks
+ on.map.annotate;uses:="org.codehaus.jackson.map,org.codehaus.jackson.
+ annotate";version="1.8.8",org.codehaus.jackson.map.ser.impl;uses:="or
+ g.codehaus.jackson.schema,org.codehaus.jackson.map.annotate,org.codeh
+ aus.jackson.map.type,org.codehaus.jackson.type,org.codehaus.jackson.n
+ ode,org.codehaus.jackson.map,org.codehaus.jackson,org.codehaus.jackso
+ n.map.ser";version="1.8.8",org.codehaus.jackson.map.type;uses:="org.c
+ odehaus.jackson.map.util,org.codehaus.jackson.type";version="1.8.8",o
+ rg.codehaus.jackson.map.module;uses:="org.codehaus.jackson.map,org.co
+ dehaus.jackson.map.type,org.codehaus.jackson,org.codehaus.jackson.typ
+ e";version="1.8.8",org.codehaus.jackson.node;uses:="org.codehaus.jack
+ son.io,org.codehaus.jackson.map,org.codehaus.jackson.util,org.codehau
+ s.jackson.impl,org.codehaus.jackson";version="1.8.8",org.codehaus.jac
+ kson.map;uses:="org.codehaus.jackson.format,org.codehaus.jackson.sche
+ ma,org.codehaus.jackson.map.annotate,org.codehaus.jackson.annotate,or
+ g.codehaus.jackson.map.type,org.codehaus.jackson.type,org.codehaus.ja
+ ckson.io,org.codehaus.jackson.node,org.codehaus.jackson.map.deser,org
+ .codehaus.jackson.util,org.codehaus.jackson.map.introspect,org.codeha
+ us.jackson.map.jsontype,org.codehaus.jackson.map.util,org.codehaus.ja
+ ckson,org.codehaus.jackson.map.ser,org.codehaus.jackson.map.jsontype.
+ impl";version="1.8.8",org.codehaus.jackson.map.deser;uses:="org.codeh
+ aus.jackson.map.exc,org.codehaus.jackson.map.annotate,org.codehaus.ja
+ ckson.annotate,org.codehaus.jackson.node,org.codehaus.jackson.map,org
+ .codehaus.jackson.map.introspect,org.codehaus.jackson.map.jsontype,or
+ g.codehaus.jackson.map.util,org.codehaus.jackson.map.deser.impl,org.c
+ odehaus.jackson.map.type,org.codehaus.jackson.type,org.codehaus.jacks
+ on.io,org.codehaus.jackson.util,org.codehaus.jackson";version="1.8.8"
+ ,org.codehaus.jackson.map.introspect;uses:="org.codehaus.jackson.map.
+ annotate,org.codehaus.jackson.annotate,org.codehaus.jackson.map.ser.i
+ mpl,org.codehaus.jackson.map.type,org.codehaus.jackson.type,org.codeh
+ aus.jackson.map,org.codehaus.jackson.map.jsontype,org.codehaus.jackso
+ n.map.util,org.codehaus.jackson.map.jsontype.impl";version="1.8.8",or
+ g.codehaus.jackson.map.jsontype;uses:="org.codehaus.jackson.map,org.c
+ odehaus.jackson.annotate,org.codehaus.jackson.map.introspect,org.code
+ haus.jackson.type";version="1.8.8",org.codehaus.jackson.map.util;uses
+ :="org.codehaus.jackson.io,org.codehaus.jackson.map,org.codehaus.jack
+ son.map.type,org.codehaus.jackson.map.introspect,org.codehaus.jackson
+ ,org.codehaus.jackson.type";version="1.8.8",org.codehaus.jackson.map.
+ jsontype.impl;uses:="org.codehaus.jackson.annotate,org.codehaus.jacks
+ on.map.type,org.codehaus.jackson.type,org.codehaus.jackson.map,org.co
+ dehaus.jackson.util,org.codehaus.jackson.map.introspect,org.codehaus.
+ jackson.map.jsontype,org.codehaus.jackson,org.codehaus.jackson.map.ut
+ il";version="1.8.8",org.codehaus.jackson.map.ser;uses:="org.codehaus.
+ jackson.map.annotate,org.codehaus.jackson.annotate,org.codehaus.jacks
+ on.node,org.codehaus.jackson.map,org.codehaus.jackson.map.introspect,
+ org.codehaus.jackson.map.jsontype,org.codehaus.jackson.map.util,org.c
+ odehaus.jackson.schema,org.codehaus.jackson.map.ser.impl,org.codehaus
+ .jackson.map.type,org.codehaus.jackson.type,org.codehaus.jackson.io,o
+ rg.codehaus.jackson.util,org.codehaus.jackson";version="1.8.8"
+Private-Package: org.codehaus.jackson.map.ext
+Implementation-Title: Data mapper for Jackson JSON processor
+Implementation-Version: 1.8.8
+Built-By: tsaloranta
+Tool: Bnd-unknown version
+Bundle-Name: Data mapper for Jackson JSON processor
+Created-By: 1.6.0_29 (Apple Inc.)
+Bundle-RequiredExecutionEnvironment: J2SE-1.5, JavaSE-1.6
+DynamicImport-Package:  org.joda.time, org.joda.time.format, org.w3c.d
+ om.ls, org.w3c.dom.bootstrap
+Bundle-Vendor: http://fasterxml.com
+Implementation-Vendor: http://fasterxml.com
+Bundle-Version: 1.8.8
+Bnd-LastModified: 1327108670630
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: javax.xml.datatype,javax.xml.namespace,javax.xml.parse
+ rs,org.codehaus.jackson;version="1.8.8",org.codehaus.jackson.annotate
+ ;version="1.8.8",org.codehaus.jackson.format;version="1.8.8",org.code
+ haus.jackson.impl;version="1.8.8",org.codehaus.jackson.io;version="1.
+ 8.8",org.codehaus.jackson.type;version="1.8.8",org.codehaus.jackson.u
+ til;version="1.8.8",org.w3c.dom,org.xml.sax
+Bundle-SymbolicName: jackson-mapper-asl
+

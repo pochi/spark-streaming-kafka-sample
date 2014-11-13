@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: org.apache.kafka
+Implementation-Title: kafka
+Implementation-Version: 0.8.0
+Implementation-Vendor-Id: org.apache.kafka
+Specification-Vendor: org.apache.kafka
+Specification-Title: kafka
+Specification-Version: 0.8.0
+

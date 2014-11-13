@@ -1,0 +1,32 @@
+EDITPUFFER UND GESCHICHTE BEFEHLE.  Vorhanden nur für interaktive Benutzung.
+    :?                Editpuffer / Geschichte Hilf
+    :h                Zeigt Befehlgeschichte (plus Editpufferinhalt)
+    :b                Zeigt laufend Editpufferinhalt
+    :X  (Ganzzahl X)  Wieder aufladed Befehl #X zu Editpuller
+    :-Y (Ganzzahl -Y) Selbel wie :X, ausgenommen -Y bedeuted Y Befehle zurück
+Die restlichen Edit/Geschichtebefehle, die alle an den Editpuffer durch
+Rückstellung laufen lassen durch, aber werden auch an jeden möglichen Befehl
+von der Geschichte, wenn du ein Befehl Bezeichner nach dem Doppelpunkt
+vermittelst, wie ":blau;" läßt den letzten Befehl wieder ausführen, den Sie
+laufen ließen, der enthält "blau", oder "w -3 /tmp/aus.txt" zum des dritten
+Befehls 'rückseitig' an Datei zufügen.
+    :;                Führt den Editpufferinhalt (Spezial, PL, oder SQL-Befehl)
+    :w datei/pfad.sql Laufend Editpufferinhalt an Datei zufügen.
+    :a[text]          Betret Hinzufügemodus mit Editpufferinhaltzweitschrift
+    :s/von regex/zo/  Ersetzt Übereinstimmung von "von regex" mit "zu"
+    :s/von/zo/[igm;]  Eins oder mehrfach Ersatz mit spezifizierten Wahlen.
+                von:   Regelmäßiger regulärer Ausdruck.  Sehen Sie 'perlre'
+                       Mannseite oder Java API Spez. für java.util.regex.Pattern!
+                zu:    Wenn empty, von's wird zu löschen (z.b. ":s/x//").
+                [igm;] Wahlen arbeiten genau wie in Perl oder java.util.regex,
+                       ausgenommen Wahl ';' bedeutet nach Ersetzungen auszuführen,
+                       'g' bedeutet Global (mehrfach) Ersetzungen,
+                       und Wahl 's' ist immer aktiv.
+                /:     Kann eigentlich irgenetwas Zeichen sein, das weder in
+                       "von" noch "zu" String wäre.
+                ERSETZEN MODUS SCHALTER:
+                       i:  Schachtel-unempfindlich
+                       g:  Global (alles Auftreten ersetzen)
+                       m:  ^ und $ Übereinstimmt Zeilebruch (view Perl m Option)
+                       ;:  ausführt sofort nach die Ersatz
+

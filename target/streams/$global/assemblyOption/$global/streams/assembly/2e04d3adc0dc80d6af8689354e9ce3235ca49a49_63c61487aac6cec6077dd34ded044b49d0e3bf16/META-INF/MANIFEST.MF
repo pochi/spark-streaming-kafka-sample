@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1370886634748
+Build-Jdk: 1.7.0_21
+Built-By: coda
+Bundle-Description: A set of Jackson modules which provide serializers f
+ or most Metrics classes.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson Integration for Metrics
+Bundle-SymbolicName: com.codahale.metrics.json
+Bundle-Version: 3.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.codahale.metrics.json;uses:="com.fasterxml.jackson.c
+ ore,com.fasterxml.jackson.databind,com.codahale.metrics.health,com.fast
+ erxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.ser,com.f
+ asterxml.jackson.databind.module,com.codahale.metrics";version="3.0.0"
+Implementation-Title: Jackson Integration for Metrics
+Implementation-Vendor-Id: com.codahale.metrics
+Implementation-Version: 3.0.0
+Import-Package: com.codahale.metrics;version="[3.0,4)",com.codahale.metr
+ ics.health;version="[3.0,4)";resolution:=optional,com.fasterxml.jackson
+ .core;version="[2.2,3)",com.fasterxml.jackson.databind;version="[2.2,3)
+ ",com.fasterxml.jackson.databind.module;version="[2.2,3)",com.fasterxml
+ .jackson.databind.ser;version="[2.2,3)",com.fasterxml.jackson.databind.
+ ser.std;version="[2.2,3)"
+Tool: Bnd-1.50.0
