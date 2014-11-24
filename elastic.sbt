@@ -10,6 +10,7 @@ libraryDependencies ++= Seq(
   ("org.apache.spark" %% "spark-streaming" % "1.1.0" % "provided"),
   ("org.apache.spark" %% "spark-core" % "1.1.0" % "provided"),
   ("org.apache.spark" %% "spark-streaming-kafka" % "1.1.0"),
+  ("org.apache.spark" %% "spark-sql" % "1.1.0"),
   ("org.elasticsearch" % "elasticsearch-hadoop" % "2.1.0.Beta3")
 )
 

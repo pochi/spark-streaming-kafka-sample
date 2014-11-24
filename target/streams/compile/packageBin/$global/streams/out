@@ -2,12 +2,22 @@
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
 [0m[[0mdebug[0m] [0m	pochi/spark/streaming[0m
 [0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark/streaming[0m
+[0m[[0mdebug[0m] [0m	pochi/spark/streaming/logCS.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark/streaming/logCS.class[0m
+[0m[[0mdebug[0m] [0m	pochi/spark/streaming/Elastic$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark/streaming/Elastic$$anonfun$main$1.class[0m
 [0m[[0mdebug[0m] [0m	pochi/spark/streaming/Elastic$.class[0m
 [0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark/streaming/Elastic$.class[0m
-[0m[[0mdebug[0m] [0m	pochi/spark/streaming/Elastic$$anonfun$2.class[0m
-[0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark/streaming/Elastic$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	pochi/spark[0m
 [0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark[0m
+[0m[[0mdebug[0m] [0m	pochi/spark/streaming/logCS$.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark/streaming/logCS$.class[0m
+[0m[[0mdebug[0m] [0m	pochi/spark/streaming/ElasticSearchConfig$.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark/streaming/ElasticSearchConfig$.class[0m
+[0m[[0mdebug[0m] [0m	pochi/spark/streaming/ElasticSearchConfig.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark/streaming/ElasticSearchConfig.class[0m
+[0m[[0mdebug[0m] [0m	pochi/spark/streaming/Elastic$$anonfun$main$1$$typecreator1$1.class[0m
+[0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi/spark/streaming/Elastic$$anonfun$main$1$$typecreator1$1.class[0m
 [0m[[0mdebug[0m] [0m	pochi[0m
 [0m[[0mdebug[0m] [0m	  /opt/local/repos/fulltextsearch/spark-streaming-kafka-sample/target/scala-2.10/classes/pochi[0m
 [0m[[0mdebug[0m] [0m	pochi/spark/streaming/Elastic$$anonfun$1.class[0m
