@@ -1,3 +1,20 @@
 [0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0m	FileRepository(publish-m2-local,FileConfiguration(true,None),Patterns(ivyPatterns=List(), artifactPatterns=List(/Users/pochi/.m2/repository/[organisation]/[module](_[scalaVersion])(_[sbtVersion])/[revision]/[artifact]-[revision](-[classifier]).[ext]), isMavenCompatible=true, descriptorOptional=false, skipConsistencyCheck=false))[0m
 [0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0m	Raw(ProjectResolver(inter-project, mapped: ))[0m
+[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),Patterns(ivyPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false, descriptorOptional=false, skipConsistencyCheck=false))[0m
+[0m[[0mdebug[0m] [0m	public: http://repo1.maven.org/maven2/[0m
+[0m[[0mdebug[0m] [0m	JBoss Repository: http://repository.jboss.org/nexus/content/repositories/releases/[0m
+[0m[[0mdebug[0m] [0m	Spray Repository: http://repo.spray.cc/[0m
+[0m[[0mdebug[0m] [0m	Cloudera Repository: https://repository.cloudera.com/artifactory/cloudera-repos/[0m
+[0m[[0mdebug[0m] [0m	Akka Repository: http://repo.akka.io/releases/[0m
+[0m[[0mdebug[0m] [0m	Twitter4J Repository: http://twitter4j.org/maven2/[0m
+[0m[[0mdebug[0m] [0m	Apache HBase: https://repository.apache.org/content/repositories/releases[0m
+[0m[[0mdebug[0m] [0m	Twitter Maven Repo: http://maven.twttr.com/[0m
+[0m[[0mdebug[0m] [0m	scala-tools: https://oss.sonatype.org/content/groups/scala-tools[0m
+[0m[[0mdebug[0m] [0m	Typesafe repository: http://repo.typesafe.com/typesafe/releases/[0m
+[0m[[0mdebug[0m] [0m	Second Typesafe repo: http://repo.typesafe.com/typesafe/maven-releases/[0m
+[0m[[0mdebug[0m] [0m	sonatype-oss: http://oss.sonatype.org/content/repositories/snapshots[0m
+[0m[[0mdebug[0m] [0m	conjars.org: http://conjars.org/repo[0m
+[0m[[0mdebug[0m] [0m	clojars.org: http://clojars.org/repo[0m
 [0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m

@@ -4,7 +4,7 @@
 		module="elastic-search-index-project_2.10"
 		revision="0.0.1"
 		status="integration"
-		publication="20141113132240"
+		publication="20141124193112"
 	>
 		<description>
 		Elastic Search Index Project
@@ -37,5 +37,6 @@
 		<dependency org="org.apache.spark" name="spark-streaming_2.10" rev="1.1.0" conf="provided->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.1.0" conf="provided->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming-kafka_2.10" rev="1.1.0" conf="compile->default(compile)"/>
+		<dependency org="org.elasticsearch" name="elasticsearch-hadoop" rev="2.1.0.Beta3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
