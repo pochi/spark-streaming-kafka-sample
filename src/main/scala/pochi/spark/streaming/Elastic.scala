@@ -30,6 +30,7 @@ object Elastic {
                  .setMaster("local[*]")
                  .setAppName("Elastic Search Indexer App")
 
+    sc.set("es.index.auto.create", "true")
     val ssc = new StreamingContext(sc, Seconds(10))
     ssc.checkpoint("checkpoint")
     val logs = KafkaUtils.createStream(ssc,
@@ -37,16 +38,15 @@ object Elastic {
                                        groupId,
                                        topic,
                                        StorageLevel.MEMORY_AND_DISK_SER)
-
-    logs.print()
-
-    logs.foreachRDD{(rdd, time) =>
+                         .map(_._2)
+                         
+    logs.foreachRDD { rdd =>
       val sc = rdd.context
       val sqlContext = new SQLContext(sc)
-      import sqlContext.createSchemaRDD
-      val logAsCS = createSchemaRDD(rdd)
-      logAsCS.saveToEs(elasticResource)
+      val log = sqlContext.jsonRDD(rdd)
+      log.saveToEs(elasticResource)
     }
+
     ssc.start()
     ssc.awaitTermination()
 
